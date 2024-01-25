@@ -5,13 +5,13 @@
 /* Step 2 - Variables */
 let fullName = 'Emilie Gorder';
 let currentYear = '2024';
-let profilePicture = `w02-task/images/profile.png`
+let profilePicture = `images/profile.png`;
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById('name');
 const foodElement = document.getElementById('food');
 const yearElement = document.querySelector('#year');
-const imageElement = document.getElementById('images/profile.png');
+const imageElement = document.getElementById('profilePicture');
 
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
